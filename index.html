@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>リアルタイムフィルター</title>
+</head>
+
+<body>
+    <h3>リアルタイムフィルター</h3>
+    <p>入力した文字を含まない要素は非表示となります。</p>
+    <div class="search-box">
+            <input type="text" id="search" name="search-input" placeholder="キーワード入力">
+    </div>
+    <ul class="image-wrapper">
+        <li class="target">
+            <img class="target-image" src="https://publicdomainq.net/images/201807/12s/publicdomainq-0024091ulg.jpg"></img>
+            <p>キーワード</p>
+            <p class="keyword">車 くるま kuruma</p>
+        </li>
+        <li class="target">
+            <img class="target-image" src="https://beiz.jp/images_T/sky/sky_00165.jpg"></img>
+            <p>キーワード</p>
+            <p class="keyword">空 そら sora</p>
+        </li>
+        <li class="target">
+            <img class="target-image" src="https://www.nsozai.jp/photos/2013/11/01/img/DSC_0220_p.jpg"></img>
+            <p>キーワード</p>
+            <p class="keyword">朝顔 あさがお asagao</p>
+        </li>
+        <li class="target">
+            <img class="target-image" src="https://thumb.photo-ac.com/dd/dd69886f84675468e7021ab3e0999e42_t.jpeg"></img>
+            <p>キーワード</p>
+            <p class="keyword">馬 うま uma</p>
+        </li>
+    </ul>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
